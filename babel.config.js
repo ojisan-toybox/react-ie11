@@ -3,8 +3,8 @@ module.exports = {
     [
       "@babel/preset-env",
       {
-        // useBuiltIns: "usage",
-        // corejs: 3, // or 2
+        useBuiltIns: "usage",
+        corejs: 3,
       },
     ],
     [
