@@ -1,2 +1,9 @@
 # react-ie11
-IE対応 on React
+
+IE 対応 on React
+
+## やりたいこと
+
+- IE 対応
+- React V17
+- Babel
