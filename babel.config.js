@@ -12,7 +12,6 @@ module.exports = {
       {
         runtime: "automatic",
       },
-    ], //ReactのPresetを追加
-    "@babel/preset-typescript",
+    ],
   ],
 };

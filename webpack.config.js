@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
   mode: process.env.NODE_ENV,
-  entry: "./src/index.tsx",
+  entry: "./src/index.jsx",
   output: {
     path: path.resolve(__dirname, "./dist"),
     filename: "build.js",
@@ -11,13 +11,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|ts|tsx)$/,
+        test: /\.(js|ts|tsx|jsx)$/,
         use: [
           {
             loader: "babel-loader",
           },
         ],
-        exclude: /node_modules/,
       },
       {
         test: /\.svg/,
